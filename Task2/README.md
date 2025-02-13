@@ -22,7 +22,7 @@ In transfer learning, we often freeze the layers of the pre-trained model to pre
 Initially, all layers of the MobileNet (or Inception) model are frozen, which means their weights will not be updated during training:
 
 ## Accuracy & loss through Training model through each epoch for MobileNet
-![Figure_2]([mobile_acc](https://github.com/user-attachments/assets/098511d3-fb1d-4945-917d-6bb78b52d44d))
+![Figure_2](https://github.com/user-attachments/assets/098511d3-fb1d-4945-917d-6bb78b52d44d)
 
 ![Figure_3](![mobile_loss](https://github.com/user-attachments/assets/9e6d5091-6c2c-482d-8a94-3f61357c099d))
 
