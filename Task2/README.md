@@ -3,7 +3,7 @@
 This project implements a Convolutional Neural Network (CNN) using transfer learning to classify images of teeth. The model is trained on a dataset of teeth images and can predict the type of teeth based on the input image. Transfer learning allows us to leverage pre-trained models, such as MobileNet and Inception, for improved accuracy and reduced training time.
 
 ## Overview
-[Figure_1](<img width="1379" alt="05-transfer-learning-feature-extraction-vs-fine-tuning" src="https://github.com/user-attachments/assets/73d12914-9ec2-449e-ac57-8a5939161942" />)
+![Figure_1](<img width="1379" alt="05-transfer-learning-feature-extraction-vs-fine-tuning" src="https://github.com/user-attachments/assets/73d12914-9ec2-449e-ac57-8a5939161942" />)
 
 The code performs the following tasks:
 
@@ -22,8 +22,7 @@ In transfer learning, we often freeze the layers of the pre-trained model to pre
 Initially, all layers of the MobileNet (or Inception) model are frozen, which means their weights will not be updated during training:
 
 ## Accuracy & loss through Training model through each epoch for MobileNet
-![Figure_2](![mobile_acc](https://github.com/user-attachments/assets/098511d3-fb1d-4945-917d-6bb78b52d44d)
-)
+![Figure_2](![mobile_acc](https://github.com/user-attachments/assets/098511d3-fb1d-4945-917d-6bb78b52d44d))
 
 ![Figure_3](![mobile_loss](https://github.com/user-attachments/assets/9e6d5091-6c2c-482d-8a94-3f61357c099d))
 
